@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".convertor">
+
+    <TextView
+        android:id="@+id/headerID"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="636dp"
+        android:text="@string/header"
+        android:textColor="#4CAF50"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="177dp"
+        tools:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/header2ID"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="248dp"
+        android:layout_marginRight="248dp"
+        android:layout_marginBottom="571dp"
+        android:text="@string/header2"
+        android:textColor="#2B41BD"
+        tools:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fromtextID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="182dp"
+        android:layout_marginRight="182dp"
+        android:layout_marginBottom="495dp"
+        android:hint="Enter"
+        android:text="@string/fromtext"
+        android:textColor="#1A1414" />
+
+    <Spinner
+        android:id="@+id/fromspinner"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="429dp"
+        android:entries="@array/fromenteries" />
+
+    <TextView
+        android:id="@+id/toID"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginBottom="371dp"
+        android:text="@string/to"
+        android:textColor="#1B1414"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/tospinner"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="272dp"
+        android:entries="@array/toenteries" />
+
+    <EditText
+        android:id="@+id/enterID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginRight="269dp"
+        android:layout_marginBottom="422dp"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="Enter"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#E0D4D4"
+        android:textColorLink="#0A0909"
+        android:textCursorDrawable="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/goID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="310dp"
+        android:text="CONVERT" />
+
+    <Button
+        android:id="@+id/clearID"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="176dp"
+        android:text="CLEAR" />
+
+
+    <TextView
+        android:id="@+id/outputID"
+        android:layout_width="142dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="266dp"
+        android:hint="OUTPUT" />
+
+</RelativeLayout>

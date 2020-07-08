@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Calculator &amp; Unit Converter</string>
+    <string name="calculator">Calculate</string>
+    <string name="convertor">convert</string>
+    <string name="header">Unit Convertor</string>
+    <string name="header2">Convert Length</string>
+    <string name="fromtext">FROM</string>
+    <string name="to">TO</string>
+    <string-array name="fromenteries">
+        <item>Kilometer(km)</item>
+        <item>Metre(m)</item>
+        <item>Centimetre(cm)</item>
+        <item>Milimeter(mm)</item>
+        <item>Foot(ft)</item>
+        <item>Inch(in)</item>
+        <item>Miles</item>
+    </string-array>
+    <string-array name="toenteries">
+        <item>Kilometer(km)</item>
+        <item>Metre(m)</item>
+        <item>Centimetre(cm)</item>
+        <item>Milimeter(mm)</item>
+        <item>Foot(ft)</item>
+        <item>Inch(in)</item>
+        <item>Miles</item>
+    </string-array>
+
+</resources>
